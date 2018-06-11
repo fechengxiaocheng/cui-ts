@@ -1,0 +1,44 @@
+{
+  "name": "CUI",
+  "version": "1.0.0",
+  "description": "UI framework for React by Webpack",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "webpack --config ./build/webpack.prd.js"
+  },
+  "author": "the front-end developers of No.5 ChuangXin Department",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.6.1",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-typescript": "^7.0.0-alpha.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "next",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-hot-loader": "^4.3.0",
+    "react-router-dom": "^4.2.2",
+    "sass-loader": "^7.0.2",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.1",
+    "tslint": "^5.10.0",
+    "tslint-loader": "^3.6.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.10.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

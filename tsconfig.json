@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "allowJs": true,
+        "module": "commonjs",
+        "removeComments": true,
+        // 可以使用 Promise, async, await等新语法
+        "target": "es2017",
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules" // 这个目录下的代码不会被 typescript 处理
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}

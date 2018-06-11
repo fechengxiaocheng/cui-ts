@@ -1,0 +1,59 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-react"
+    ],
+    "rules": {
+        // 是否允许使用字符串直接访问object的属性
+        "no-string-literal": false,
+        // 检查分号，忽略interfaces
+        "semicolon": [
+            true,
+            "always",
+            "ignore-interfaces"
+        ],
+        // 引号，双单使用，一般使用单引号，jsx里使用双引号
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double",
+            "avoid-template",
+            "avoid-escape"
+        ],
+        // 4个空格代替tab键
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        // 禁止出现重复的import
+        "no-duplicate-imports": true,
+        // 禁止一个文件中出现多个相同的 namespace
+        "no-mergeable-namespace": true,
+        // 文件类型必须时 utf-8
+        "encoding": true,
+        // import 语句中，关键字之间的间距必须是一个空格
+        "import-spacing": true,
+        // 接口可以 implement extend 和 merge
+        "interface-over-type-literal": true,
+        // new后面要有空格
+        "new-parens": true,
+        // 禁止debugger
+        "no-debugger": false,
+        // 禁止行尾有空格
+        "no-trailing-whitespace": false,
+        // 禁止无用的表达式
+        "no-unused-expression": true,
+        // 禁止未使用的变量
+        "no-unused-variable": true,
+        // 不能未申明就使用
+        "no-use-before-declare": true,
+        // 不能使用var
+        "no-var-keyword": true,
+        // interface的命名不用必须带大写“I”
+        "interface-name": [
+            true,
+            "never-prefix"
+        ]
+    }
+}
