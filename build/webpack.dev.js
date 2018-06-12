@@ -63,7 +63,7 @@ module.exports = {
         {
             test: /\.tsx$/,
             enforce: 'pre',
-            loader: 'tslint-loader'
+            loader: ['awesome-typescript-loader', 'tslint-loader']
         }
         ]
     },

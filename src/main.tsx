@@ -11,7 +11,7 @@ class Main extends React.Component<HelloText, {}> {
     }
     private render() {
         return (
-            <div>{this.props['text']}</div>
+            <div className="important" text="Hello">{this.props['text']}</div>
         );
     }
 }

@@ -45,7 +45,7 @@ module.exports = {
         },
         {
             test: /\.(ts|tsx)?$/,
-            loader: 'ts-loader'
+            loader: ['awesome-typescript-loader', 'tslint-loader']
         }
         ]
     },
